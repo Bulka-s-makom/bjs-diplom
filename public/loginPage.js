@@ -18,7 +18,7 @@ userForm.registerFormCallback = data => {
         if(response.success) {
             location.reload();
         } else {
-            userForm.setRegisterErrorMesage(response.error)
+            userForm.setRegisterErrorMessage(response.error)
         }
     });
 };
